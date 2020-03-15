@@ -1,5 +1,5 @@
 ---
-title: Get in Touch
+title: Contacta conmigo
 img_path: images/contact.jpg
 menus:
   main:
@@ -7,5 +7,3 @@ menus:
     weight: 6
 layout: contact
 ---
-
-Fill the form below to get in touch with me.
