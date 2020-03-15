@@ -1,18 +1,18 @@
 title: Stackbit Ampersand Theme
 baseurl: /
+collections:
+  posts:
+    permalink: '/posts/:title/'
 permalink: '/:title/'
 layout_style: grid
 palette: green
 header:
-  title: Ampersand
-  logo_img: images/logo.png
+  title: Babaganush
+  logo_img: ''
   has_nav: true
 footer:
   content: '&copy; All rights reserved.'
-  links:
-    - text: Made with Stackbit
-      url: 'https://www.stackbit.com'
-      new_window: true
+  links: []
   has_social: true
 sass:
   indentWidth: 4
@@ -34,6 +34,3 @@ exclude:
   - netlify.toml
   - stackbit-build.sh
   - stackbit-pull.js
-collections:
-  posts:
-    permalink: '/posts/:title/'
