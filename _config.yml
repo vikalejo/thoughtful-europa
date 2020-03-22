@@ -1,11 +1,8 @@
 title: Babaganush
 baseurl: /
-collections:
-  posts:
-    permalink: '/posts/:title/'
 permalink: '/:title/'
 layout_style: grid
-palette: green
+palette: black
 header:
   title: Babaganush
   logo_img: ''
@@ -20,6 +17,9 @@ sass:
   precision: 10
 plugins:
   - jekyll-menus
+collections:
+  posts:
+    permalink: '/posts/:title/'
 exclude:
   - Gemfile
   - Gemfile.lock
