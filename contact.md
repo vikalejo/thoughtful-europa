@@ -1,6 +1,6 @@
 ---
-title: Contacta conmigo
-img_path: images/contact.jpg
+title: Contacto
+img_path: ''
 menus:
   main:
     title: Contact
