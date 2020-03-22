@@ -16,11 +16,10 @@
   letter-spacing: 0.07em;
   line-height: 1.5;
   margin-bottom: 0.83333rem;
-  text-transform: uppercase;
 }
 
 .post-title {
-  font-size: 2.66667rem;
+  font-size: 2.36667rem;
   margin: 0 0 1.66667rem;
 
   a {
@@ -37,6 +36,16 @@
   font-size: 1.33333rem;
   line-height: 1.5;
   margin-bottom: 2.5rem;
+}
+
+.post-categories {
+  margin-top: -13px;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  font-family: fantasy;
+  font-size: 1.1rem;
+  letter-spacing: 0.1rem;
 }
 
 .post-thumbnail {
@@ -64,9 +73,13 @@
     font-size: 14px;
   }
 
+  .post-categories {
+    font-size: 1.006667rem;
+  }
+
   .post-title {
     font-size: 1.66667rem;
-    margin-bottom: 0.83333rem;
+    margin-bottom: 0.63333rem;
   }
 
   .post-excerpt {
