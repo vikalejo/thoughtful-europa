@@ -1,10 +1,10 @@
 ---
-title: Categories
+title: Categorias
 img_path: ''
 permalink: /categories/
 menus:
   main:
-    title: Categories
+    title: Categorias
     weight: 6
 layout: categories
 ---
