@@ -409,6 +409,11 @@ collections:
         label: Subtitle
         required: false
         hint: The text shown just below the post title.
+      - widget: string
+        name: categories
+        label: Categories
+        required: true
+        hint: The category of the post.
       - widget: date
         name: date
         label: Date
