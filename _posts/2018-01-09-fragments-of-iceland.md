@@ -1,5 +1,6 @@
 ---
 title: Fragments of Iceland
+categories: Travel
 date: '2018-01-09'
 thumb_img_path: images/7.jpg
 content_img_path: images/7.jpg
