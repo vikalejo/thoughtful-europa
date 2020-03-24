@@ -413,7 +413,7 @@ collections:
         name: categories
         label: Categories
         required: true
-        hint: The category of the post.
+        hint: The category of the post.[Recetas, Restaurantes]
       - widget: date
         name: date
         label: Date
