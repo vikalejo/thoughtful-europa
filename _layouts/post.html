@@ -26,8 +26,8 @@ layout: body
         </time>
       </div>
       <div class="post-categories">
-      {{ page.categories }}
-    </div>
+        <a href="/archive/" rel="bookmark">{{ page.categories }}</a>
+      </div>
       <h1 class="post-title">{{ page.title }}</h1>
     </header><!-- .post-header -->
     {% assign subtitle_is_not_empty = page.subtitle | is_not_empty %}
