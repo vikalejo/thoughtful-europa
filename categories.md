@@ -1,10 +1,10 @@
 ---
-title: Categorias
+title: Archivo
 img_path: ''
-permalink: /categories/
+permalink: /archive/
 menus:
   main:
-    title: Categorias
+    title: Archivo
     weight: 6
-layout: categories
+layout: archive
 ---
