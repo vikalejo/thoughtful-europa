@@ -1,5 +1,5 @@
 title: Babaganush
-baseurl: /
+baseurl: '/'
 permalink: '/:title/'
 layout_style: grid
 palette: black

@@ -1,9 +1,9 @@
 ---
-title: Contacto
+title: ''
 img_path: ''
 menus:
   main:
-    title: Contact
+    title: Contacto
     weight: 6
 layout: contact
 ---

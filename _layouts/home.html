@@ -22,16 +22,33 @@ layout: body
           <header class="post-header">
             <div class="post-meta">
               <time class="published"
-              datetime="{{ post.date | date: '%Y-%m-%d %H:%M' }}">{{ post.date | date: '%B %d, %Y' }}</time>
+                    > {% assign m = post.date | date: "%-m" %}
+                    {{ post.date | date: "%-d" }} de
+                    {% case m %}
+                    {% when '1' %}Enero
+                    {% when '2' %}Febrero
+                    {% when '3' %}Marzo
+                    {% when '4' %}Abril
+                    {% when '5' %}Mayo
+                    {% when '6' %}Junio
+                    {% when '7' %}Julio
+                    {% when '8' %}Agosto
+                    {% when '9' %}Septiembre
+                    {% when '10' %}Octubre
+                    {% when '11' %}Noviembre
+                    {% when '12' %}Diciembre
+                    {% endcase %} de
+                    {{ post.date | date: "%Y" }}
+              </time>
             </div>
-            <div class="post-categories"><a href="/categories/" rel="bookmark">{{ post.categories }}</a>
+            <div class="post-categories"><a href="/archive/" rel="bookmark">{{ post.categories }}</a>
             </div>
             <h2 class="post-title"><a href="{{ post.url | relative_url }}" rel="bookmark">{{ post.title }}</a></h2>
           </header><!-- .post-header -->
           <div class="post-excerpt">
             <p>{{ post.excerpt }}</p>
             <p class="read-more">
-              <a class="button inverse" href="{{ post.url | relative_url }}">Read more</a>
+              <a class="button inverse" href="{{ post.url | relative_url }}">Leer más</a>
             </p>
           </div><!-- .post-excerpt -->
         </div><!-- .post-card-content -->
