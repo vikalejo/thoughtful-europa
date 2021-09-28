@@ -20,6 +20,7 @@ plugins:
 collections:
   posts:
     permalink: '/posts/:title/'
+comments: true
 exclude:
   - Gemfile
   - Gemfile.lock
