@@ -1,5 +1,5 @@
 ---
-title: Home
+title: Inicio
 sections:
   - type: intro
     title: Intro
@@ -15,7 +15,7 @@ sections:
         url: /about
 menus:
   main:
-    title: Home
+    title: Inicio
     weight: 1
 layout: home
 ---
