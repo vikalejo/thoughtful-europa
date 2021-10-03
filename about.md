@@ -1,10 +1,10 @@
 ---
 title: Sobre Mi
-subtitle: This is a short page about me and my work
+subtitle: Aprendiz de por vida
 img_path: images/about.jpg
 menus:
   main:
-    title: About
+    title: Sobre mí
     weight: 2
 layout: page
 ---
